@@ -33,7 +33,7 @@ creating and calling functions . (function arguments currently not supported)
 ```javascript
    lij.run([
      ['$set','myNamespace/myFunction',['#','print','foo','bar','baz',['+',3,10]] ] ,
-     ['call',['$get','myNamespace/myFunction']] ,
+     ['call',['$get','myNamespace/myFunction']] , // foo bar baz 13
    ])
 ```
 
